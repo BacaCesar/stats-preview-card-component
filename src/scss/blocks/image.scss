@@ -1,0 +1,15 @@
+@use '../mixins/resposive.scss' as *;
+.card__image{
+    height: 327px;
+    width: 240px;
+    mix-blend-mode: multiply;
+    mix-blend-mode:overlay;
+    border-radius: 8px 8px 0 0;
+
+    @include responsive(desktop) {
+      height: 446px;
+      width: 540px;
+      display: inline-block;
+      align-content: end;
+    }
+}

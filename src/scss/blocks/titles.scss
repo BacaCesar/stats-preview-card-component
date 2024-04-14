@@ -1,1 +1,19 @@
-
+@use '../mixins/resposive.scss' as *;
+.title{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-inline: block;
+    margin-inline: 31px;
+    text-align: center;
+    @include responsive(desktop){
+        font-size: 36px;
+        font-weight: 700;
+        text-align: left;
+        margin-left: 72px;
+        margin-right: 72px;
+        margin-top: 72px;
+        margin-bottom: 16px;
+    }
+}

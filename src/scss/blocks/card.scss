@@ -1,0 +1,47 @@
+@use '../mixins/resposive.scss' as *;
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--backgorund-color-card);
+    height: 780px;
+    width: 327px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 40px;
+
+    @include responsive(desktop){
+        height: 446px;
+        width: 1110px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    &__container{
+        height: 240px;
+        width: 327px;
+        background-color: var(--word-purple);
+        @include responsive(desktop){
+            height: 446px;
+            width: 540px;
+            display: inline-block;
+            border-radius: 0 8px 8px 0;
+        }
+    }
+    
+    &__text{
+        color: rgba(255, 255, 255, 0.75);
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        @include responsive(desktop){
+            height: 88px;
+            width: 570px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

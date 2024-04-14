@@ -2,21 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <!-- PON UN FAVICON!!! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>Stats-preview-card-component</title>
   </head>
   <body>
     <div class="card">
-      <h1 class="title">Titulo Principal</h1>
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis
-        eos magnam earum numquam dignissimos eveniet asperiores a, minus neque
-        quibusdam odio est in eaque tempora consequatur veniam similique libero?
-      </p>
-      <a class="card__button" href="#">Pincha aquí</a>
+      <div class="card card__container">
+        <img class="card card__image" src="./assets/images/image-header-mobile.jpg" alt="persons">
+      </div>
+      <div class="card card__text">
+        <h1 class="title">Get <b class="word-purple">insights</b> that help your business grow.</h1>
+        <p class="text">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="text-container">
+          <div class="text">
+            <span class="text__number">10k+</span>
+            <span class="text__letters">COMPANIES</span>
+          </div>
+          <div class="text">
+            <span class="text__number">314</span>
+            <span class="text__letters">TEMPLATES</span>
+          </div><div class="text">
+            <span class="text__number">12M+</span>
+            <span class="text__letters">QUERIES</span>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="./js/index.js"></script>
   </body>
