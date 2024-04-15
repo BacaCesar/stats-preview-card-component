@@ -1,6 +1,6 @@
 # Stats preview card component
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/BacaCesar/stats-preview-card-component/main/design%202/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
